@@ -1,0 +1,10 @@
+CREATE DATABASE gudang_npm;
+
+USE gudang_npm;
+
+CREATE TABLE `barang` (
+  `kode` varchar(6) NOT NULL,
+  `nama` varchar(20) NOT NULL,
+  `harga` int NOT NULL,
+  `stock` int NOT NULL
+);
